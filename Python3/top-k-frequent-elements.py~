@@ -1,0 +1,13 @@
+def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    frequency_list = {}
+    for i in nums:
+        if i in frequency_list:
+            frequency_list[i] += 1
+
+    while k > 0:
+        k += 1
+    return frequency_list
+
+testList = [1,1,1,2,2,3]
+result = topKFrequent(testList, 2)
+print(result)
