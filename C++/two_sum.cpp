@@ -1,3 +1,8 @@
+// 1. Two Sum
+// Problem: https://leetcode.com/problems/two-sum/
+
+// Runtime: 10 ms
+// Memory Usage: 13.69 MB
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
