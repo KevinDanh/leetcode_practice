@@ -1,2 +1,5 @@
 # Emacs buffers
 *~
+
+# Visual Studio Config
+*.vscode
