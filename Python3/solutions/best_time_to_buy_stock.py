@@ -1,4 +1,5 @@
-class Solution:
+from typing import List
+class Solution1:
     def maxProfit(self, prices: List[int]) -> int:
         maxProfit = 0
         min = prices[0]

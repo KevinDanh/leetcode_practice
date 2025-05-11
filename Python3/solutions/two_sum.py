@@ -1,7 +1,6 @@
 from typing import List
 
-# Time Complexity O(n)
-class Solution:
+class Solution1:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         seen = {}
         for i in range(len(nums)):
@@ -10,8 +9,6 @@ class Solution:
                 return [seen[value],i]
             seen[nums[i]] = i
 
-# Brute Force Solution 
-# Time Complexity O(n^2)
 class Solution2:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)):

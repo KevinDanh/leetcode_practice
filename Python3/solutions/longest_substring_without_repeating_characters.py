@@ -1,4 +1,4 @@
-class Solution:
+class Solution1:
     def lengthOfLongestSubstring(self, s: str) -> int:
         max = 0
         window = []
@@ -12,4 +12,4 @@ class Solution:
                 max = len(window)
 
         return max
-    
+        

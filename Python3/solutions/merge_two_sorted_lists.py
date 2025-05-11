@@ -1,15 +1,9 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 from typing import Optional
 
 class ListNode:
-    def __init__(head: None):
+    def __init__(self, head: None):
         self.head = head
-
-class Solution:
+class Solution1:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         linkedList = ListNode()
         tail = linkedList
@@ -26,7 +20,3 @@ class Solution:
         if(list2 is None):
             tail.next = list1
         return linkedList.next
-
-x = Solution()
-x.mergeTwoLists([1,2,3], [1,2,3])
-print(x)

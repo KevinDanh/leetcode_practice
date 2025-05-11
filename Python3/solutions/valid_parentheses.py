@@ -1,5 +1,4 @@
-# Time Complexity O(n)
-class Solution:
+class Solution1:
     def isValid(self, s: str) -> bool:
         open_brace = ['(', '[', '{']
         close_brace = [')', ']', '}']

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem_map>
+    <problem id="1">
+        <name>Two Sum</name>
+        <solution_path>solutions/two_sum.py</solution_path>
+        <test_path>tests/two_sumUT.py</test_path>
+    </problem>
+    <problem id="3">
+        <name>Longest Substring Without Repeating Characters</name>
+        <solution_path>solutions/longest_substring_without_repeating_characters.py</solution_path>
+        <test_path>tests/longest_substring_without_repeating_charactersUT.py</test_path>
+    </problem>
+    <problem id="20">
+        <name>Valid Parentheses</name>
+        <solution_path>solutions/valid_parentheses.py</solution_path>
+        <test_path>tests/valid_parenthesesUT.py</test_path>
+    </problem>
+    <problem id="21">
+        <name>Merge Two Sorted Lists</name>
+        <solution_path>solutions/merge_two_sorted_lists.py</solution_path>
+        <test_path>tests/merge_two_sorted_listsUT.py</test_path>
+    </problem>
+    <problem id="49">
+        <name>Group Anagrams</name>
+        <solution_path>solutions/group_anagrams.py</solution_path>
+        <test_path>tests/group_anagramsUT.py</test_path>
+    </problem>
+    <problem id="121">
+        <name>Best Time to Buy and Sell Stock</name>
+        <solution_path>solutions/best_time_to_buy_stock.py</solution_path>
+        <test_path>tests/best_time_to_buy_stockUT.py</test_path>
+    </problem>
+    <problem id="125">
+        <name>Valid Palindrome</name>
+        <solution_path>solutions/valid_palindrome.py</solution_path>
+        <test_path>tests/valid_palindromeUT.py</test_path>
+    </problem>
+    <problem id="200">
+        <name>Number of Islands</name>
+        <solution_path>solutions/number_of_islands.py</solution_path>
+        <test_path>tests/number_of_islandsUT.py</test_path>
+    </problem>
+    <problem id="226">
+        <name>Invert Binary Tree</name>
+        <solution_path>solutions/invert_binary_tree.py</solution_path>
+        <test_path>tests/invert_binary_treeUT.py</test_path>
+    </problem>
+    <problem id="234">
+        <name>Palindrome Linked List</name>
+        <solution_path>solutions/palindrome_linked_list.py</solution_path>
+        <test_path>tests/palindrome_linked_listUT.py</test_path>
+    </problem>
+    <problem id="238">
+        <name>Product of Array Except Self</name>
+        <solution_path>solutions/product_of_array_except_self.py</solution_path>
+        <test_path>tests/product_of_array_except_selfUT.py</test_path>
+    </problem>
+    <problem id="290">
+        <name>Word Pattern</name>
+        <solution_path>solutions/word_pattern.py</solution_path>
+        <test_path>tests/word_patternUT.py</test_path>
+    </problem>
+    <problem id="347">
+        <name>Top K Frequent Elements</name>
+        <solution_path>solutions/top_k_frequent_elements.py</solution_path>
+        <test_path>tests/top_k_frequent_elementsUT.py</test_path>
+    </problem>
+    <problem id="621">
+        <name>Task Scheduler</name>
+        <solution_path>solutions/task_scheduler.py</solution_path>
+        <test_path>tests/task_schedulerUT.py</test_path>
+    </problem>
+</problem_map>

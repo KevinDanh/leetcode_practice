@@ -1,10 +1,9 @@
-// 621. Task Scheduler
-
-class Solution:
+from typing import List
+class Solution1:
     def leastInterval(self, tasks: List[str], n: int) -> int:
         numberOfTasks = len(tasks)
         minimumIntervals = 0
-l
+
         # Create map of number of occurences of each unique task
         taskMap = {}
         for task in tasks:
@@ -34,4 +33,4 @@ l
                 if processMap[task] > 0:
                     processMap[task] -= 1
         return minimumIntervals
-            
+        

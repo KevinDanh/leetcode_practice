@@ -1,4 +1,5 @@
-class Solution:
+from typing import List
+class Solution1:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         mapAnagrams = {}
 

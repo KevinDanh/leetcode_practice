@@ -1,7 +1,4 @@
-# Solution 1
-# Runtime; 0 ms
-# Memory Usage: 17.50 MB
-class Solution:
+class Solution1:
     def wordPattern(self, pattern: str, s: str) -> bool:
         map = {}
         split_string = s.split(' ') # split up each word in s
@@ -16,7 +13,4 @@ class Solution:
                 return False
             elif pattern[k] in map and split_string[k] != map[pattern[k]]:
                 return False
-            lastiteration = k
-        print(lastiteration)
-        print(used_values)
         return True

@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution1:    
     def invertTree(self, root):
         if not root:
             return None

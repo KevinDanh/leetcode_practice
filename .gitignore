@@ -3,3 +3,6 @@
 
 # Visual Studio Config
 *.vscode
+
+# Python metadata
+*.egg-info/
