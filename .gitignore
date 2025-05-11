@@ -4,5 +4,8 @@
 # Visual Studio Config
 *.vscode
 
-# Python metadata
+# Bytecode files
+__pycache__/
+
+# Package dependencies and builds
 *.egg-info/
